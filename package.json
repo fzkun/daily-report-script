@@ -1,0 +1,26 @@
+{
+  "name": "daily-report-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "pkg": "pkg package.json --compress --target node12-win-x64 --out-path  ./exe",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "pkg": "^5.3.0"
+  },
+  "bin": "./app.js",
+  "pkg": {
+    "scripts": "./config.json",
+    "assets": "",
+    "targets": ""
+  }
+}
