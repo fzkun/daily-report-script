@@ -230,7 +230,7 @@ function submitReport(commitLog, JSESSIONID, reportDate) {
         if (!body) {
             showError('执行失败，当天日报已提交(确认中)，或被退回')
         } else {
-            console.log('提交成功');
+            console.log(reportDate + '提交成功');
         }
     }
 }
