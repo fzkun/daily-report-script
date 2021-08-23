@@ -2,7 +2,8 @@ const fs = require('fs')
 const path = require('path')
 const shell = require('shelljs')
 const request = require('request')
-const config = require(path.join(process.cwd(), './config.json'))
+const pwd = process.cwd()
+const config = require(path.join(pwd, 'config.json'))
 let defaultHeaders = {
     Host: 'aliyun31887308.x3china.com',
     Connection: 'keep-alive',
@@ -18,60 +19,36 @@ let defaultHeaders = {
     'Accept-Language': 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
 }
 
-//判定git命令是否可用
-// if (!shell.which('git')) {
-//     //向命令行打印git命令不可用的提示信息
-//     shell.echo('该脚本需要git')
-//     //退出当前进程
-//     shell.exit(1)
-// }
-//
-// shell.cd(`${config.projectDirName}`)
-// let before = config.fixedDate ? `--before='${config.fixedDate}'` : ''
-// if (
-//     shell.exec(
-//         `git log --date=short --author=${config.gitName} -5 ${before} --no-merges > ../daily-report-script/${config.gitName}.txt` // 输出 自己最近5次的commit记录 到txt文件
-//     ).code !== 0
-// ) {
-//     shell.echo('Error: Git log failed')
-//     shell.exit(1)
-// } else {
-//     console.log(`git log成功，已生成${config.gitName}.txt`)
-fs.readFile(`../daily-report-script/data.json`, async (err, data) => {
+fs.readFile(`${pwd}/report.txt`, async (err, data) => {
     // 读取失败
     if (err) throw err
     // 读取成功
     try {
-        // let commitLogs = formatData(data)
-        let commitLogs = JSON.parse(data.toString())
-        console.log(commitLogs);
+        let commitLogs = formatData(data)
+        commitLogs
+            .map(it => {
+                it.content = it.content.toLowerCase()
+                if (it.content === 'update') {
+                    it.content = '更新项目，优化代码'
+                }
+                return it.content
+            })
+            .filter((it, pos, self) => self.indexOf(it) === pos)
+            .map((it, pos) => Object.assign(commitLogs[pos], {content: it}))
         if (commitLogs.length === 0) {
             return showError('没有commit记录')
         }
-        // return
-        // let commitLog = commitLogs[0]
-        // if (commitLogs[0].commitContent.length < 20 && commitLogs.length > 1) {
-        //     commitLog.commitContent =
-        //         commitLogs[0].commitContent + commitLogs[1].commitContent
-        // }
+        let commitLog = commitLogs.reduce((acc, curr) => Object.assign(acc, {content: curr.content + '，' + acc.content}))
+        console.log(commitLog)
+
         let JSESSIONID = await getJSESSIONID()
         console.log('获取JSESSIONID成功：', JSESSIONID)
         await login(JSESSIONID)
-        for (i = 0; i < commitLogs.length; i++) {
-            let commitLog = commitLogs[i]
-            // yyyy-MM-dd
-            submitReport(commitLog, JSESSIONID, commitLog.fixedDate || getToday())
-        }
-        setInterval(function () {
-            console.log("timer that keeps nodejs processing running");
-        }, 1000 * 60 * 60)
+        submitReport(commitLog.content, JSESSIONID, commitLog.date)
     } catch (err) {
         showError(err)
     }
-
 })
-
-// }
 
 function formatData(data) {
     let dataArr = data
@@ -95,8 +72,7 @@ function formatData(data) {
                 result[Math.ceil((index + 1) / 4) - 1].date = i.split('   ')[1]
                 break
             case ' ':
-                result[Math.ceil((index + 1) / 4) - 1].commitContent =
-                    i.split('    ')[1]
+                result[Math.ceil((index + 1) / 4) - 1].content = i.split('    ')[1]
                 break
         }
     })
@@ -162,7 +138,7 @@ function login(JSESSIONID) {
 }
 
 function submitReport(commitLog, JSESSIONID, reportDate) {
-    console.log(reportDate + '日报对应的commit记录:', commitLog.commitContent);
+    console.log(reportDate + '日报对应的commit记录:', commitLog.content);
     let headers = Object.assign(defaultHeaders, {
         'Origin': 'https://aliyun31887308.x3china.com',
         'Sec-Fetch-Dest': 'document',
@@ -187,7 +163,7 @@ function submitReport(commitLog, JSESSIONID, reportDate) {
         'dailyTasks[0].workProject.id': '43',
         'dailyTasks[0].projectType.id': '4',
         'dailyTasks[0].dept.id': '15',
-        'dailyTasks[0].taskDesc': commitLog.commitContent,
+        'dailyTasks[0].taskDesc': commitLog.content,
         'dailyTasks[0].remark': '',
         'dailyTasks[0].status': 'Submited',
         'dailyTasks[0].id': '',
@@ -236,10 +212,10 @@ function submitReport(commitLog, JSESSIONID, reportDate) {
 }
 
 function getToday() {
-    var date = new Date()
-    var nowMonth = date.getMonth() + 1
-    var strDate = date.getDate()
-    var seperator = '-'
+    let date = new Date()
+    let nowMonth = date.getMonth() + 1
+    let strDate = date.getDate()
+    let seperator = '-'
     if (nowMonth >= 1 && nowMonth <= 9) {
         nowMonth = '0' + nowMonth
     }
