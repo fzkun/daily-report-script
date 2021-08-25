@@ -40,9 +40,9 @@ fs.readFile(`${pwd}/${logData}.txt`, async (err, data) => {
                 commitGroup[it.date] = gp
             })
 
-        // let JSESSIONID = await getJSESSIONID()
-        // console.log('获取JSESSIONID成功：', JSESSIONID)
-        // await login(JSESSIONID)
+        let JSESSIONID = await getJSESSIONID()
+        console.log('获取JSESSIONID成功：', JSESSIONID)
+        await login(JSESSIONID)
 
         for (let key in commitGroup) {
             let commitLogs = commitGroup[key]
@@ -54,7 +54,7 @@ fs.readFile(`${pwd}/${logData}.txt`, async (err, data) => {
                 return showError('没有commit记录')
             }
             let commitLog = commitLogs.reduce((acc, curr) => Object.assign(acc, {content: curr.content + '，' + acc.content}))
-            // submitReport(commitLog.content, JSESSIONID, commitLog.date)
+            submitReport(commitLog.content, JSESSIONID, commitLog.date)
         }
     } catch (err) {
         showError(err)
