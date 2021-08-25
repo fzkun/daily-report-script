@@ -23,3 +23,7 @@ comma:=,
 	--after=$(after) \
 	--before=$(before) \
 	--no-merges --all >> $(author).txt
+
+update: $(proj_dirs:=.upd)
+%.upd:
+	git --git-dir=$*.git pull
