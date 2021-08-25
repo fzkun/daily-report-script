@@ -1,8 +1,8 @@
 const fs = require('fs')
-const path = require('path')
-const shell = require('shelljs')
-const request = require('request')
 const pwd = process.cwd()
+const path = require('path')
+const request = require('request')
+const logData = process.env.LOG_DATA
 const config = require(path.join(pwd, 'config.json'))
 let defaultHeaders = {
     Host: 'aliyun31887308.x3china.com',
@@ -19,60 +19,74 @@ let defaultHeaders = {
     'Accept-Language': 'zh-CN,zh;q=0.9,zh-TW;q=0.8,en;q=0.7',
 }
 
-fs.readFile(`${pwd}/report.txt`, async (err, data) => {
+fs.readFile(`${pwd}/${logData}.txt`, async (err, data) => {
     // 读取失败
     if (err) throw err
     // 读取成功
     try {
-        let commitLogs = formatData(data)
-        commitLogs
-            .map(it => {
+        let commitGroup = new Set()
+        formatData(data)
+            .forEach(it => {
                 it.content = it.content.toLowerCase()
+                if (it.content === 'no message') {
+                    return
+                }
                 if (it.content === 'update') {
                     it.content = '更新项目，优化代码'
                 }
-                return it.content
+                let gp = commitGroup[it.date]
+                gp = Object.assign([], gp)
+                gp.push(it)
+                commitGroup[it.date] = gp
             })
-            .filter((it, pos, self) => self.indexOf(it) === pos)
-            .map((it, pos) => Object.assign(commitLogs[pos], {content: it}))
-        if (commitLogs.length === 0) {
-            return showError('没有commit记录')
-        }
-        let commitLog = commitLogs.reduce((acc, curr) => Object.assign(acc, {content: curr.content + '，' + acc.content}))
-        console.log(commitLog)
 
-        let JSESSIONID = await getJSESSIONID()
-        console.log('获取JSESSIONID成功：', JSESSIONID)
-        await login(JSESSIONID)
-        submitReport(commitLog.content, JSESSIONID, commitLog.date)
+        // let JSESSIONID = await getJSESSIONID()
+        // console.log('获取JSESSIONID成功：', JSESSIONID)
+        // await login(JSESSIONID)
+
+        for (let key in commitGroup) {
+            let commitLogs = commitGroup[key]
+            commitLogs
+                .map(it => it.content)
+                .filter((it, pos, self) => self.indexOf(it) === pos)
+                .map((it, pos) => Object.assign(commitLogs[pos], {content: it}))
+            if (commitLogs.length === 0) {
+                return showError('没有commit记录')
+            }
+            let commitLog = commitLogs.reduce((acc, curr) => Object.assign(acc, {content: curr.content + '，' + acc.content}))
+            // submitReport(commitLog.content, JSESSIONID, commitLog.date)
+        }
     } catch (err) {
         showError(err)
     }
 })
 
+
 function formatData(data) {
     let dataArr = data
         .toString()
+        .trim()
         .split('\n')
         .filter((i) => i && ['c', 'A', 'D', ' '].includes(i[0]))
     let result = []
     dataArr.forEach((i, index) => {
-        result[Math.ceil((index + 1) / 4) - 1] = Object.assign(
+        let pos = Math.ceil((index + 1) / 4) - 1
+        result[pos] = Object.assign(
             {},
-            result[Math.ceil((index + 1) / 4) - 1]
+            result[pos]
         )
         switch (i[0]) {
             case 'c':
-                result[Math.ceil((index + 1) / 4) - 1].commitId = i.split(' ')[1]
+                result[pos].commitId = i.split(' ')[1]
                 break
             case 'A':
-                result[Math.ceil((index + 1) / 4) - 1].author = i.split(' ')[1]
+                result[pos].author = i.split(' ')[1]
                 break
             case 'D':
-                result[Math.ceil((index + 1) / 4) - 1].date = i.split('   ')[1]
+                result[pos].date = i.split('   ')[1]
                 break
             case ' ':
-                result[Math.ceil((index + 1) / 4) - 1].content = i.split('    ')[1]
+                result[pos].content = i.split('    ')[1]
                 break
         }
     })

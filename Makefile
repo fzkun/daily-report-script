@@ -1,26 +1,29 @@
-repdt ?= $(shell date +%F)
-after = $(shell date +%F --date='$(repdt) -1days')
-before = $(shell date +%F --date='$(after) +1days')
-authors = ldc\\\|ldc0\\\|ldcc\\\|ludc\\\|Ldc
-proj_dirs = $(dir $(wildcard ../*/))
 pwd = $(PWD)
+after ?= $(shell date +%F --date='-1days')
+before ?= $(shell date +%F --date='+1days')
+proj_dirs = $(dir $(wildcard ../*/))
+authors = ldc,ldc0,ldcc,ludc,Ldc fzkun
+author ?= $(authors)
 
-run: $(proj_dirs:=.dir)
-	@echo '$(after) -> $(before)'
-	@echo Sussessed Build: report.txt
-	npm start
+run: $(authors:=.user)
 
+%.user:
+	@rm -f $(pwd)/$*.txt
+	make -s fetch author='$*'
+	LOG_DATA=$* npm start
 
-%.dir: clean
-	@cd $* && \
-	git log --date=short \
-	--author=$(authors) \
+fetch: $(proj_dirs:=.dir)
+	@echo Sussessed Build: '$(after) -> $(before)' $(author).txt
+
+comma:=,
+%.dir:
+	git --git-dir=$*.git \
+	log --date=short \
+	--author=$(subst $(comma),\\\|,$(author)) \
 	--after=$(after) \
-	--before=$(before) \
-	--no-merges --all >> $(pwd)/report.txt
+	--no-merges --all >> $(pwd)/$(author).txt
+	@echo '\n' >> $(pwd)/$(author).txt
 
-clean:
-	@rm -f $(pwd)/report.txt
 
 
 
