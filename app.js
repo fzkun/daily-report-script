@@ -4,6 +4,7 @@ const path = require('path')
 const request = require('request')
 const logData = process.env.LOG_DATA
 const config = require(path.join(pwd, 'config.json'))
+const yack = ['no message', 'update', 'upgrade']
 let defaultHeaders = {
     Host: 'aliyun31887308.x3china.com',
     Connection: 'keep-alive',
@@ -27,11 +28,8 @@ fs.readFile(`${pwd}/${logData}.txt`, async (err, data) => {
         let commitGroup = new Set()
         formatData(data)
             .forEach(it => {
-                it.content = it.content.toLowerCase()
-                if (it.content === 'no message') {
-                    return
-                }
-                if (it.content === 'update') {
+                it.content = it.content.toLowerCase().trim()
+                if (yack.includes(it.content)) {
                     it.content = '更新项目，优化代码'
                 }
                 let gp = commitGroup[it.date]
@@ -46,10 +44,9 @@ fs.readFile(`${pwd}/${logData}.txt`, async (err, data) => {
 
         for (let key in commitGroup) {
             let commitLogs = commitGroup[key]
-            commitLogs
                 .map(it => it.content)
                 .filter((it, pos, self) => self.indexOf(it) === pos)
-                .map((it, pos) => Object.assign(commitLogs[pos], {content: it}))
+                .map((it, pos) => Object.assign(commitGroup[key][pos], {content: it}))
             if (commitLogs.length === 0) {
                 return showError('没有commit记录')
             }

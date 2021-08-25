@@ -1,5 +1,5 @@
 pwd = $(PWD)
-after ?= $(shell date +%F --date='-1days')
+after ?= $(shell date +%F)
 before ?= $(shell date +%F --date='+1days')
 proj_dirs = $(dir $(wildcard ../*/))
 authors = ldc,ldc0,ldcc,ludc,Ldc fzkun
@@ -8,8 +8,8 @@ author ?= $(authors)
 run: $(authors:=.user)
 
 %.user:
-	@rm -f $(pwd)/$*.txt
-	make -s fetch author='$*'
+	@rm -f $*.txt
+	make -s fetch author=$*
 	LOG_DATA=$* npm start
 
 fetch: $(proj_dirs:=.dir)
@@ -21,9 +21,5 @@ comma:=,
 	log --date=short \
 	--author=$(subst $(comma),\\\|,$(author)) \
 	--after=$(after) \
-	--no-merges --all >> $(pwd)/$(author).txt
-	@echo '\n' >> $(pwd)/$(author).txt
-
-
-
-
+	--before=$(before) \
+	--no-merges --all >> $(author).txt
