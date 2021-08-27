@@ -1,8 +1,8 @@
 pwd = $(PWD)
-after ?= $(shell date +%F)
+after ?= $(shell date +%F --date='-1days')
 before ?= $(shell date +%F --date='+1days')
 proj_dirs = $(dir $(wildcard ../*/))
-authors = ldc,ldc0,ldcc,ludc,Ldc fzkun
+authors = ldc,ldc0,ldcc,ludc,Ldc
 author ?= $(authors)
 
 run: $(authors:=.user)

@@ -42,6 +42,7 @@ fs.readFile(`${pwd}/${logData}.txt`, async (err, data) => {
         console.log('获取JSESSIONID成功：', JSESSIONID)
         await login(JSESSIONID)
 
+        let submitList = []
         for (let key in commitGroup) {
             let commitLogs = commitGroup[key]
                 .map(it => it.content)
@@ -51,13 +52,14 @@ fs.readFile(`${pwd}/${logData}.txt`, async (err, data) => {
                 return showError('没有commit记录')
             }
             let commitLog = commitLogs.reduce((acc, curr) => Object.assign(acc, {content: curr.content + '，' + acc.content}))
-            submitReport(commitLog.content, JSESSIONID, commitLog.date)
+            submitList.push(commitLog)
         }
+
+        submitReport(submitList, 0, JSESSIONID)
     } catch (err) {
         showError(err)
     }
 })
-
 
 function formatData(data) {
     let dataArr = data
@@ -148,8 +150,10 @@ function login(JSESSIONID) {
     })
 }
 
-function submitReport(commitLog, JSESSIONID, reportDate) {
-    console.log(reportDate + '日报对应的commit记录:', commitLog.content);
+function submitReport(submitList, pos, JSESSIONID) {
+    let commitLog = submitList[pos]
+    let reportDate = commitLog.date
+    console.log(reportDate + ' -> ', commitLog.content);
     let headers = Object.assign(defaultHeaders, {
         'Origin': 'https://aliyun31887308.x3china.com',
         'Sec-Fetch-Dest': 'document',
@@ -219,6 +223,11 @@ function submitReport(commitLog, JSESSIONID, reportDate) {
         } else {
             console.log(reportDate + '提交成功');
         }
+        pos += 1
+        if (pos >= submitList.length) {
+            return
+        }
+        submitReport(submitList, pos, JSESSIONID)
     }
 }
 

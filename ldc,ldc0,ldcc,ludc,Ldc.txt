@@ -1,0 +1,2123 @@
+commit b933846c5baf5d309797fb774aa1bd21bada45ae
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-27
+
+    revert go mod file
+
+commit 31f602e93365c14dd7a863486b1c3a77f1c6b230
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-27
+
+    更新 ws 消息类型
+
+commit bce8879c1bb1f0281d92e78875cf08dac7c4953e
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-19
+
+    update
+
+commit c6053e211cc220f9be9124f6a4a4f20e2f9f3997
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-19
+
+    update
+
+commit 815e49bed0b288a010c6fcaa67d47a8269646188
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-19
+
+    update
+commit a02facae7518645ea2484152f2d3621641fe8bd6
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-18
+
+    update
+
+commit 6a2d54a20e23f014f06b6fea368bc746bfc5a98a
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-18
+
+    update
+
+commit 80c0436371082cfe89cac0815ca4ff95f283f309
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-17
+
+    update
+
+commit 92097aba0a260eb2d6a8b450bae72a2527b042ec
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    update phsyev
+
+commit b53a54ef7ac3a41157867cbe5b61b3bd9a85e800
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    添加体征特殊事件表
+
+commit 62a7ab3d479a170a5d91b1d906498600e7708e98
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    update
+
+commit 64856f53e1d42e65799e6018ada2c778eea5355e
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    update
+
+commit f100e65ed1208093bf2596aeb8e93c7c6801c260
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    update
+
+commit ff07dbe79cba9d44c4c5bb35b2e6deb81e61ceec
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    修改传染病诊断表
+
+commit 8e9fd00646fc034b4c5a21a71950bff8ac16c767
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-13
+
+    添加传染病关联管理的相关数据表
+
+commit a2e17eb7ecca70abc23e8baa635c86d456fd034d
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-09
+
+    更新
+
+commit 74353918d4608a9552344993a22bfea23649ad74
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-09
+
+    更新
+
+commit f9c9012307c151e0d4ae9d20318e701f0e4cbe62
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-08-06
+
+    更新新生儿表结构
+
+commit 398feff8f26a629c5046725dca94429ec5c33122
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-30
+
+    更新新生儿表结构
+
+commit a4d6ca785fe8336662dd4e6e970ba96f97aa6898
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-30
+
+    更新
+
+commit 63d48ac94e7e2729cf341af00ce4cd7f263504bf
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-29
+
+    新增新生儿表结构
+
+commit b6c1d4876343a00b76187f3990c3a657ea0a6248
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-26
+
+    申请单呈报事由增加长度
+
+commit 2e66182a404a629589dda3850776c28e72714fd1
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-22
+
+    更新
+
+commit 4c99391edc8d39d5b8ffa355337d96709c327e9c
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-16
+
+    update
+
+commit 5b6bf5ea6da2a85c8c896d7e45a11d819044273b
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-09
+
+    set user info 返回密码盐值
+
+commit 9b67b65dd46eb9aab9756faf4c14aee3070bde21
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-11
+
+    用户表添加超级管理员字段
+
+commit 2cb0ebc5d7361491eaefdc964afe5d67a12b3096
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-11
+
+    用户表添加密码盐值
+
+commit af1242b8de65208d35bea5550a82e5e33dee99bf
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-07
+
+    体检表添加病人id字段
+
+commit 56ed0b9416aca9127e53657f237cf78ba1a100c3
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-07
+
+    tmjw wlvfhv zidr
+
+commit 69bebf5affe74b02e7722beb386bc57bffc9d96f
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-26
+
+    体征添加其它排入排出
+
+commit 93c793655445c6168323bd736d13bbca5ae628d9
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-25
+
+    体征和护理记录添加皮试结果填写
+
+commit 2b87ec2dfd9c5605ed62e86e4b7780d037c1487c
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-22
+
+    还原血压字段
+
+commit 8ff10d324ae71db4ca9b4483b6994fcd2956d937
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-21
+
+    update
+
+commit da386f4fc522f662b33d40cab4f7d2e2b0bcc23c
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-21
+
+    更新护理医嘱和体征录入的血压字段
+
+commit fab0c730c0cf89caf45ee467289ddf8e84d168b7
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-21
+
+    更新护理医嘱和体征录入的血压字段
+
+commit c851f180d4ad07c57ed61db4039fb14bf2c742e1
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-14
+
+    门诊护士处方明细添加总量单位
+
+commit eb7890c0524408ee017839c6e86195151d201257
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-02
+
+    护士站药单添加诊断结果
+commit b283d5f04de24d8d81427f839f5c1a986a34b88b
+Author: Ldc <ldcc@live.com>
+Date:   2021-08-04
+
+    update deps
+
+commit 30b243f30a30ca8809fabc4ca3043d50dc50bdcc
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-21
+
+    append grid
+
+commit 77493833a08c86858b9ad58b8b4a971194a93903
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-21
+
+    append grid
+
+commit bde220d53f760be81a118446402f011c4803c546
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-17
+
+    处理 UTC 偏移值
+
+commit 0783000f5bccc9902769d077682f5fb97b987f02
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-12
+
+    拓展行
+
+commit 47d7ee6067b618da2aaf5f5828157c46e6caa7ea
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-09
+
+    BuildExcel 支持空数组
+commit 7741c8b3038ecd13ed13cc8324734d9e50c32c68
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-20
+
+    fix checkin
+
+commit 7d61950622247a2bb91536baf6354fc3bd4dc6b8
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-19
+
+    update tts
+
+commit 73237b429d07feed84ae021226f10a5c7d7a14ab
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-18
+
+    fix `models.Queue.GetDoctorQueueBookIndex`
+
+commit 6921fc38be043ee909b747049f0e517767ebc559
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    add doc
+
+commit 8e3dd602194b45ae614d5d87a0651606e8b1a1f4
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    fix order level sort
+
+commit d5c3db6ff8b5ee567ac51f5101dd70bfc2e8f800
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-13
+
+    solve queue pass, insert behind nth' and sort
+
+commit c81cbdb89c1ddbfc02ccaff74b5dcbb485419ce5
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-13
+
+    fix pass
+
+commit 0a0c8c8caeb0530884f3a538c83f303adf77231d
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-12
+
+    solve rewait
+
+commit 505c3f47944ae4a081e3dad47db3462599b09a19
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-12
+
+    logs debugs: on
+
+commit 5db30af8b918fd76aedd11b9b8b5b31577e62e0f
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-12
+
+    获取报道时间
+
+commit c4851ab68849d870b869265f953beaa6c3437c91
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-12
+
+    预约优先
+
+commit 4bae4ecd3e7d2d89d4b3115b77fd5e4f210b5d4e
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-12
+
+    update
+
+commit efc904030f4695ea95f934bf4b91b36120041153
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-12
+
+    重排时不再设置所有regorder
+
+commit 7f26d921b9862b4ab20cf54d6e8c457e1a17aa25
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-12
+
+    不修改预约号的StDT
+
+commit 777262d7e3732725f0d61cd40ebccfd4d643516b
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-05
+
+    用小班次进行排序
+
+commit b06b9dee49ec955bccb89eda804808d2ce9152bc
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-04
+
+    更新排队逻辑
+
+commit 992e5cb7fc195ea2b6102c8b14092f0f6964d234
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-04
+
+    修复排队逻辑
+
+commit 066bd3d64d629462433d81f098b20a1696973a82
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-08-04
+
+    更新文档
+
+commit f42e04a2eb3671089ee6611fda9f76d8104e7deb
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-08-04
+
+    更新文档
+
+commit fbd929a57089440693d93f9bb2d4af7ccaad8a9e
+Author: Ldc <ldcc@live.com>
+Date:   2021-08-03
+
+    报道限制在就诊时间的前15分钟后
+
+commit c83515ac36a98ca2a2a94dc79fcd407a0e9eb994
+Author: Ldc <ldcc@live.com>
+Date:   2021-08-03
+
+    报道支持 visitid
+
+commit d85249146c2737e3d125d1c351e2eeadc9166b3a
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-30
+
+    修改获取数据RegQueueInfo
+
+commit ef0c10a07a2bcf6ac4058a25f1ba9fdedf105f4f
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-30
+
+    修改获取数据RegQueueInfo
+
+commit 50ac894e7142bdf18febbffac3a82388d0c46dd7
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-30
+
+    修复报道字段缺省更新的问题，修改排队逻辑，未报道病人接口过滤科室，限制未 报道病人不能叫号、过号
+
+commit e25bff8d0345356bd6c9cd26ea6ab2d40c77695e
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-27
+
+    取消刷新已完成就诊的数据
+
+commit 6a331ec9c6ade4258f497b5911829df27f64b1e7
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-21
+
+    修复非当前大班次只剩下未报道病人时，排班信息被过滤的问题
+
+commit b99064f62f295bbf21314f8a4fe01c26b09aa938
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-20
+
+    更新现场号就诊时间
+
+commit 202508b5bbcfdc97a0d73865679b8faed2364253
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-15
+
+    修改未报到病人列表的查询逻辑
+
+commit 19f3e813453d3589da2a064246291f3ec0f636da
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-14
+
+    更新操作时间
+
+commit a5ed3df810622b6be38ea285dc59753df10a50c0
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-14
+
+    更新某些情况下报到超时无法置底到其它超时号的问题
+
+commit fd6c9dd11f1e460b88f55d79096718d476d835dc
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-14
+
+    添加队列时不修改排队号
+
+commit 75e3d8a7e68c9851f25d3cce0fca27d9a0511099
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-12
+
+    更新
+
+commit 0ec66e20ac9727f04398b184f8dc368df0a477e3
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-12
+
+    修改报道逻辑，未超就诊时间报道的号按照预约顺序排序
+
+commit 6a9771674199784492cc94cd5a9872e4637be9e3
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-12
+
+    修改报道逻辑，未超就诊时间报道的号按照预约顺序排序
+
+commit 98d16b32e26df78192ba7396fd32a66e1a6dc00f
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-09
+
+    修复假过号插队
+
+commit 7da395eb35dbc29007a0cd28488100d8753fc888
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-08
+
+    假过号插队到指定位置
+
+commit 20227ead3af751d7a3f6cdd240b0792f47b0b12e
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-08
+
+    假过号插队到指定位置
+
+commit 60d7125196f83e7ea14c753af5d8856b4831adf6
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-07
+
+    更新
+
+commit 02624fbb334b5118c420419ab1662eeffb6c1844
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-07
+
+    更新
+
+commit 2afa5bdf1afd872fcfff3e4643ba9397c5d99aa3
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-07
+
+    更新
+
+commit 6b638b000173c6234d8ca2ee649a682beb8267c9
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-07
+
+    更新
+
+commit 695ab4db21c547c394637879d43e3ef358150197
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-07
+
+    更新
+
+commit 7efe7373d348980333730f14c1ca9796cd447c8c
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-06
+
+    更新
+
+commit b5aa73ed6505b9f5bda9f37f625114a7f0f41280
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-06
+
+    修改回诊病人排序
+
+commit 1260bde49bf8b7464199ab0e262fc5aeed545b62
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-06
+
+    病人回诊
+
+commit 979ed6742e4f58eb411238dfca831396e635bc28
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-05
+
+    查找回诊病人
+
+commit 62607fe2855c8f48b648bd44084552bc33c5f681
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-29
+
+    更新排序规则
+
+commit c52996cb1647b53e5b9e959d9f204e97597919a9
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-24
+
+    各队列独立排序
+
+commit 3ec6237fb72e3395a7d05a2dc24525488c763085
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-23
+
+    add TODOs
+
+commit 737c071fd96afdacdabcb024e2120487ad668bb1
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    修复凌晨班次排到上午班的问题
+
+commit 64eecaf77a8e895ec4bee6c989b26716a5bb1212
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-26
+
+    不再使用 dtlid 获取 stdt
+
+commit 38159e9c2dc83a49c057d2e6219843119a502ef3
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-26
+
+    不再使用 dtlid 获取 stdt
+
+commit 887af0e0ae9656e6270bd19d43210ecdc859a949
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-25
+
+    更新
+
+commit a2640d918d2a0f23af38cbd736e7b6a8d3796368
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-25
+
+    通过当前班次时间修改排队号的班次ID和名字为下一班次的ID和名字
+
+commit 1af1dfe3c4e6d1bddb0139a1b11b0ef27b624cb0
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-25
+
+    通过当前班次时间修改排队号的班次ID和名字为下一班次的ID和名字
+
+commit 3dc1331187617a64ced738d62d8ccff3a39aacc0
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-24
+
+    通过班次表获取班次名字
+
+commit 50329ee909271efa3319a574054946897e93ff2c
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-21
+
+    恢复排序
+
+commit 3039cfc67adbf0ffd51d4a57468e1e034fbeb057
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-20
+
+    备份
+
+commit 4bcc8f3ee672f930827560db75c12583f098be7a
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-18
+
+    更新班次匹配、队列排序逻辑
+
+commit 4d713cb9e657692d5ea7f931da06f937f6f08ced
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-18
+
+    更新模块
+
+commit a780696e087558a32d673d4ede66ff1e2d233163
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-18
+
+    update go mod
+commit 8a2632bc885d2e96ea6ea8a96b37f32434b9ab93
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-09
+
+    更新
+
+commit aa2612258ec5ad9196cbfa1a71a168db35762339
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-08
+
+    更新
+
+commit e1999bf9650e94e5858d268e9edc9b03990047ee
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-08
+
+    更新 controller
+
+commit 37053692b64d4f28e82964285c9eefd30b1faffa
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-08
+
+    更新合约
+
+commit 25cb24031bc99052784e1a1ae047c4c8453a6742
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-08
+
+    update
+
+commit 1335223be6bf54c47a539ba0200313e19d374bb1
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-07
+
+    ?
+
+commit 7b811d0ef7ad5e67153d528ed79eb2894192073e
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-04
+
+    update
+
+commit cdd272f63a628bc844afb5e0a91945e7cd3d18c8
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-04
+
+    update
+
+commit ec490972e4bfb62cfe75e308adcb8ec063520935
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-04
+
+    update
+
+commit 520b35a4e69aeff55dcaaca243e5f9fe3ad0c667
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-03
+
+    update call_cc
+
+commit b72cc12044189a7d9b893e86227707f2ed382a23
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-03
+
+    upgrade by send
+
+commit d3975782295e2d7bf7cb25522f579b803515c47d
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-03
+
+    update
+
+commit a560a4d55e2dc0532ba418a2af010926983f8f3e
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-03
+
+    test init his data
+commit f8b91401520c3f5af1e3ed689be4c8a85ee559a7
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-11
+
+    修复一个区号多次改变后最终变回初始区号时出现死循环的问题
+
+commit 8422fd9730dfb7a150ec3175b873baa84b21ab03
+Author: ldc <ldcc@live.com>
+Date:   2021-04-29
+
+    添加爬虫脚本
+
+commit 9e7b65783c6552a08f6a0bbb6ea381b0ce0142ad
+Author: ldc <ldcc@live.com>
+Date:   2021-04-29
+
+    combine new-dist as new-addr
+
+commit 23842e94e23cb3c88aa8eea8a6dd0387a81138a9
+Author: ldc <ldcc@live.com>
+Date:   2021-04-29
+
+    rm comm-code
+
+commit 82c008b3ab493c996be703d8e6a2ccd0ebbffdb5
+Author: ldc <ldcc@live.com>
+Date:   2021-04-29
+
+    res wit hembed
+
+commit b3154fa3d76dac0d0a2ff794b27fae4cae4ccc01
+Author: ldc <ldcc@live.com>
+Date:   2021-04-28
+
+    fixed code merges
+
+commit dc2511a39de0da850e6e8af2758a3222523c20b3
+Author: ldc <ldcc@live.com>
+Date:   2021-04-27
+
+    fixed dist_code changes
+
+commit aa2f088b1c90bedcb0ba7e08db0e27f91d5d22a1
+Author: ldc <ldcc@live.com>
+Date:   2021-04-27
+
+    map_struct -> json
+
+commit f37aaeff1a5ec8b14bbf18b681276aafe6d4ce88
+Author: ldc <ldcc@live.com>
+Date:   2021-04-27
+
+    format coding stylish
+
+commit 20d002581bf5c0c0b6f83d9aa472ff1a844b9672
+Author: ldc <ldcc@live.com>
+Date:   2021-04-27
+
+    csv -> godata
+
+commit 8edba8847cabfcff214e79986be29f36e0518b97
+Author: ldc <ldcc@live.com>
+Date:   2021-04-26
+
+    add dist morp
+commit 58255285cb8982f24a6890d7884311fab70f90f4
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-27
+
+    同步门诊就诊表过敏史
+
+commit 3dd8961d6780fd777d56d6e367e1dce2dce87758
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-07-09
+
+    更新门诊入院查询
+
+commit f1b9abac3b7c8edd94fe669807c5e2879040608c
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-24
+
+    更新
+
+commit 99354148554e29a6a9f57c3d80a4c6d18e573d71
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-24
+
+    更新
+
+commit 1d0e0e319b2c1605fae2659a5c65892b19320d6a
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-08
+
+    订阅出院召回消息
+
+commit 5ab2781360be7e5e253b13cdf05e2b51927700b6
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-08
+
+    订阅出院召回消息
+
+commit 494fd630256b6ad07616df8da7114cb360ae2488
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-08
+
+    订阅出院召回消息
+
+commit b5c77067266fd1bf1ffdbb264229ecd56539aa90
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-07
+
+    更新
+
+commit 231efb563a3f138833d70f12b5341bbf6422ac72
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    更新
+
+commit d7a33e7e707868a025bb64b0818451061f8da5f9
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-31
+
+    更新
+
+commit 6adaee16fa68c9f9e5b60b11e91a8429d0460a2a
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-18
+
+    ´新
+
+commit 2cddd13ccdf11dae6d7fed06f45eeac40d7fe5e6
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-18
+
+    门诊入院返回诊断编码
+
+commit b1fc6e76af789afd80b463b54773868b7c207a99
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-12
+
+    更新
+
+commit 0f857fe8ce19cda0ec2c7eef5a804252bcf8e034
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-09
+
+    住院数据添加强戒号
+
+commit 11362ea26dbec5ef8712b7feef06da7f1a364805
+Author: ldc <ldcc@live.com>
+Date:   2021-04-26
+
+    update
+
+commit 75ec47c466fcb9671d08865fcc71eac635ab8d98
+Author: ldc <ldcc@live.com>
+Date:   2021-04-25
+
+    病人信息列表 rpc 支持返回24小时内出院的病人
+
+commit b2e41c1cce0d6ae0560c8242d8b0f1724ca4d6b7
+Author: ldc <ldcc@live.com>
+Date:   2021-04-23
+
+    住院登记添加病区字段
+commit 035fe26c06ff69bcbedfc0ed0223ac3e863576c8
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-27
+
+    修改皮试 ws 消息返回
+
+commit 76ca952fa794e46b5d9a43542ef04856b6236d0a
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-18
+
+    update
+
+commit 8ebb4c0c2cf60c19a65fdf0d413a1d0c3d2fad4c
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-18
+
+    add drug column `skinresult`
+
+commit b64442c89272f612e853c4f1ca7beb688eb0fcac
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-18
+
+    upgrade
+
+commit e0287a28815a0dbd96b5884b3787c1a9ac18cd7d
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-23
+
+    注射查询允许查询已执行完的信息
+
+commit 8acacdd01f8bd18599b8b62347cdf7713af2f979
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-17
+
+    update
+
+commit 0dcc020b8c0feb7f470661fb75353998acd1a06f
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-17
+
+    日志锚点
+
+commit 22c7e96d073118100aa1167f924b9fe50e577372
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-09
+
+    更新
+
+commit 2624ecd1e4bbc0887504fa52fa59a5ced1cfd97d
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    更新
+
+commit c318afe80fa8a7d27cbb697b5e03a210b3ae12ec
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    更新
+
+commit 7d0fc5d1b57221c7cc685f89ecbf98ecfdc2d177
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-07
+
+    更新
+
+commit 0622032a6fa93344306af6434d4ec231cd811692
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-11
+
+    身份证号处理
+
+commit 2b87621fa2aa13fe6278a54e8209cb33bead8ad8
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-09
+
+    综合查询病人信息返回过敏原
+
+commit 922919a778ff2248575c5be1f2aef798af9514f5
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-07
+
+    综合查询查询更多信息
+
+commit d49a1dfff2afb6ec1c2ae91f4516dda7556834f4
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-07
+
+    综合查询添加字段
+
+commit 775d9ba6d043b85299a9e9fb52eb43c4cafdf02a
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-07
+
+    终止治疗接口强制更新总次数
+
+commit 21b9d6ee46a2faa64f30e321027f52b30c5ebf9d
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-07
+
+    添加治疗终止接口
+
+commit f990a16b73710595e815d75728543d3100630404
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-06
+
+    添加注射接口api
+
+commit e6e86fe66fe872d250da79909ffc32178bfabbf8
+Author: ldc <ldcc@live.com>
+Date:   2021-04-29
+
+    注射接口返回就诊号
+
+commit 561b5e7106bb78baeb02a341c7f905ecff530ffd
+Author: ldc <ldcc@live.com>
+Date:   2021-04-29
+
+    修复输液查询
+
+commit d5ca90ffea0ba9ee8e381972f711fb23532f1b63
+Author: ldc <ldcc@live.com>
+Date:   2021-04-28
+
+    修改治疗接口
+
+commit f039dc5b16a505ee61768dc51f4fa95253da9a78
+Author: ldc <ldcc@live.com>
+Date:   2021-04-25
+
+    更新
+
+commit ef6b1884db41b71a63b8dd81afc9d075d41905c7
+Author: ldc <ldcc@live.com>
+Date:   2021-04-23
+
+    不显示作废及退费处方
+
+commit 565a83eec719541e49a8c605857bb55e44bae11d
+Author: ldc <ldcc@live.com>
+Date:   2021-04-22
+
+    更新 go.mod
+
+commit 98d87788b3198013b12839180dbb6a9ea0ba254e
+Author: ldc <ldcc@live.com>
+Date:   2021-04-21
+
+    取消注射原因改为非必填
+
+commit 85d5066d28391ed4a120b44efb7d313b8662385a
+Author: ldc <ldcc@live.com>
+Date:   2021-04-21
+
+    更新输液查询排序逻辑
+
+commit 5551b65cd1a6098f8cb00311bfe624fc68b70008
+Author: ldc <ldcc@live.com>
+Date:   2021-04-20
+
+    修复输液完成失败的问题
+
+commit 5495a16a1c2df4b251fc46a44864017fbce55196
+Author: ldc <ldcc@live.com>
+Date:   2021-04-16
+
+    修改输液流程
+
+commit ec30bddde6c0d5b895a700b3d09b81833f5d4c36
+Author: ldc <ldcc@live.com>
+Date:   2021-04-14
+
+    护士站处方添加总量名称
+
+commit ee0cf528369469fc1aeac211f18079b876d7dc98
+Author: ldc <ldcc@live.com>
+Date:   2021-04-07
+
+    修复输液护理登记的db字段
+
+commit a0d77eedde548337d0e8fbe6b7acc7bcad4a34ca
+Author: ldc <ldcc@live.com>
+Date:   2021-04-06
+
+    治疗执行添加频率和天数
+
+commit 40309a05af0da23a50231a845522d9008860c87d
+Author: ldc <ldcc@live.com>
+Date:   2021-04-06
+
+    备份
+
+commit 347f10c0b68dc9680354313964104823456954a4
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-02
+
+    药单明细支持返回诊断结果
+
+commit 90d8bbfaec89f14b49fd6d96dc5c371a82c356eb
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-02
+
+    注射，治疗执行结果改为非必填，治疗执行界面显示频率和天数
+commit f4058975793e0768998f25685ccddf51403331b9
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-27
+
+    update
+
+commit e7d3ffb417934c8dd49a44cb6aff5287c9c9690c
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-27
+
+    获取当天出入院病人流水
+
+commit 8e384fb3e017adeb6e7e67230b26bc53467b395a
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-27
+
+    update
+
+commit 2b86e0ef90c78310c788264fbe16d2becb86037a
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-27
+
+    更新出入科消息
+
+commit e594931b4edd8d7607562799907262a038d45e91
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-27
+
+    fix update print execbook
+
+commit 849c5589cf75fab5bb200dc92143d2c0e16c873b
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-25
+
+    index on hosp_jiedusuo: 05dbf92 update
+
+commit 05dbf928b0940f156370a4f2568012bfc0fc9c86
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-25
+
+    update
+
+commit f752b87683780b335f6d5c9e80784b2f6804741f
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-24
+
+    update
+
+commit 25d9611cb383a7c99312a6c388689a61ff965428
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-24
+
+    测试 dockerfile
+
+commit 151990b8d1ace7e037850cd806a0441f361554f7
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-24
+
+    测试 vendor
+
+commit ee867d49f5188f998d9a0867938339c2f916665a
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-24
+
+    测试 embed
+
+commit c740170b070dece74c8175cbd9f8b97746fd241a
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-23
+
+    update
+
+commit 9dfca8019ce822dba411ab2dc5513eff70a01ad8
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-23
+
+    update
+
+commit 0fd9138deb16e77d1c205ef276cfa56a512c00bb
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-20
+
+    update
+
+commit cf93cba77148712c68e44456459d6921ab937a71
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-19
+
+    solve ps event remove
+
+commit 2b454091d894b0ef28ad73fab553af253ba628f3
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-19
+
+    common withs -> repo.With
+
+commit 736f6cfb176a12cadb577af7a0bc16fa2ee691b4
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-17
+
+    insert ps event
+
+commit 00bc5d9979b6d9b28218d2d8130a8eddeef8e674
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-17
+
+    update
+
+commit e1959b29fdb614e2726c2f3b634c474335f37db2
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-17
+
+    fix symptom find multi to filter removed item
+
+commit 9029b36794e4051a47bc7a4809a0b574a18054fc
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-17
+
+    update symptom event
+
+commit 7d841116bebff826cadfb2ab64d21eb8fe744ce4
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    solve infection, infection assoc diags
+
+commit c2a8702cd98ab83a0dd638d904396d13662f2e4e
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    update dockerfile
+
+commit d3809d04396f4e8ed0defa2c2ccf96898765fbf8
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    update docerfile
+
+commit 9364061ceef1493e8586614a7b8a92d0ab4f6f20
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    update
+
+commit f65674584cb24e335acdff1348b5403cf8d90f4d
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-16
+
+    update
+
+commit f74ba2cc4fef75f0d2d143c8440468e5b1c068b1
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-13
+
+    solve infection list, insert
+
+commit fc613829bc49a4431595f3e79dcdac89af7b87ee
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-11
+
+    update
+
+commit 9ff1e52e9864499dc4f1f9c509acdc1dd8d45450
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-11
+
+    update
+
+commit 1479d3844c659016823574fffe246bf113e8a2e7
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-11
+
+    update
+
+commit 831064585001eb9b95160d10ed833069ae977435
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-11
+
+    solve newborn remove
+
+commit 7631d3e449c30450f66ca16650821ec97a7f9156
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-11
+
+    update
+
+commit 7da8946b4435434d005df5e37b984e930c74261f
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-11
+
+    update
+
+commit 6bafe0d341596d70012caa864d4fa1a43bfd416f
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-11
+
+    solve newborn modify, insert, remove
+
+commit 3285340a71a60f8d334d44c6ab9de7197b6d060a
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-10
+
+    update
+
+commit e3bcc9244b791dd74d9d7c8a5e8e83c4453a42a1
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-10
+
+    update
+
+commit 7b145a608f88d02d7b09ea8d4e8ff8b6d7dd7b9b
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-10
+
+    update
+
+commit 6f3312ce28ea073edac2bf5701412eb859416f65
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-10
+
+    update
+
+commit 16215538abc761a318aa234d179c141d04f0682b
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-10
+
+    update
+
+commit 4932ccc9fe00f15fa0698ac1b690f087a226e05a
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-10
+
+    update
+
+commit 80a1840c60cc2e735ccaf1addfe8d9a3fcd67df1
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-10
+
+    update
+
+commit 4b47ce1286aa3d749088796a352e189ddb2899fc
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-10
+
+    update
+
+commit 8c3c76956855645f99f183664c8261df1fa36388
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-10
+
+    "update"
+
+commit 38a423d1c716913a13a89915a7bba9e031cfa2f7
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-10
+
+    update makefile, update newborn apis
+
+commit 6ae7f0d946bca44321f98c6b2797d07191e4f95b
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-06
+
+    fix bug
+
+commit dafa834518ae06643161d29cf70fe339919ee16a
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-06
+
+    solve newborn insert, solve west diag regex pattern
+
+commit 88d660a619093b7c892c60019e79e756eaf8fa2f
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-06
+
+    solve bed reset; update makefile
+
+commit 71967d47b1c464cb42c83f8e7b98bcd6825f2348
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-06
+
+    update makefile
+
+commit 105c6988194d876371982681d7b84dbae4867bbe
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-05
+
+    update makefile
+
+commit d5232b1ce0f129046640be5100cbc1c67016745d
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-05
+
+    update makefile
+
+commit 360b45066c1f25e8857544a0c737e6e1738a4653
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-05
+
+    更新 dockerfile，配置 swagger
+
+commit 89727f2447c99a60a4ffea52681ff253b397fba3
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-05
+
+    fix nurcase signing
+
+commit fc03b3b4a90176e80f46ab156333dece132f5fa5
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-04
+
+    update makefile
+
+commit dbe5543ee0a87eea6c73f7c0b6b02f48b24ec106
+Author: ldc0 <ldcc@live.com>
+Date:   2021-08-04
+
+    solve newborn list for mothers and babies
+
+commit 2b6e3b89c9c8cadf9249a4c0f477823b52709eb4
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-29
+
+    护理记录允许对单条数据签名
+
+commit d074f18430e920a41580d3a463fe22d5111698cb
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-29
+
+    完成新生儿母亲列表
+
+commit 0223ef1112a24dc2aaaaf4af1d3dc1ab29a6e599
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-28
+
+    update
+
+commit cc81eaf4449145c1a5012967cd47d94c3d5e2070
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-28
+
+    merge execbook with pfm
+
+commit 2df75886994b05414a6dbc026f00f81d95c5cc19
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-28
+
+    update
+
+commit 1ca21d7241cea5e962e3bed8f032c04e12e94c13
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-26
+
+    更新特殊医嘱事务逻辑
+
+commit 1a03ca04ceeaa4abc5ac20fe79255207e95aad90
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-26
+
+    更新
+
+commit 5f22b99236d201df877073244e87c530dbc959e5
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-22
+
+    更新每日清单
+
+commit 07d91cdb21d1e0fc94cc538594979f756addf32a
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-21
+
+    update
+
+commit 9a7cb6d31feb70edf864a82d11ca4e81255b5f67
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-21
+
+    update
+
+commit 807e1d57abbe1db3101765b054a4b98d989c1fa1
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-19
+
+    更新
+
+commit 3d791f79c6fd3d6700a67065f9bf897b6dffbe60
+Author: Ldc <ldcc@live.com>
+Date:   2021-07-14
+
+    更新执行计划迭代器
+
+commit 5f7edde8876cd4f6aaf48e367de7d5f005b9d21c
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-30
+
+    更新日志记录
+
+commit 301d5fd0f30c663c945ef1387c998caf4949b7d0
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-29
+
+    更新
+
+commit 9d05a0d5b9b820de61b2e37b3ff6246994adef0b
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-28
+
+    更新停嘱
+
+commit a0dedd69e059ccc4b157aadf052b691026399922
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-28
+
+    更新停嘱
+
+commit 7eb237502b89409aba5ddf49dcbbc1cf16d22419
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-28
+
+    更新停嘱
+
+commit e74ebfc580c8c6512627ab3b28007b18f08cb92a
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-28
+
+    更新取消确认
+
+commit 89ab8260646662581b3d5b96ada12de114a7b730
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-25
+
+    修改错误返回
+
+commit 10861126c54db699e1abf8fc1c7fe5438bb313ae
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-25
+
+    添加执行计划错误信息
+
+commit 15cdc29fd97f83ce94f4f28d11b7a4d52b430515
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-25
+
+    执行计划错误日志
+
+commit 2b3df88a58017f7af70dd507e30bfd4dbcd46eab
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-24
+
+    转床到空床时不发送目标床位的原病人信息广播
+
+commit 23dbea548a0a309436047cb05bbcb3f7a7e544c3
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-23
+
+    修改定时计划的过滤方式
+
+commit 67b8c182a6a2c43de0eba4021f9975ad8765a43b
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-21
+
+    更新日志
+
+commit 6bb672b959b90595519833882f0d3c5251331394
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-18
+
+    批量取消确认医嘱过滤没有执行计划的医嘱，更新执行计划的状态
+
+commit 23fdc23fea80d6477613d0a1d99542505c9afe02
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-18
+
+    批量取消确认医嘱过滤没有执行计划的医嘱，更新执行计划的状态
+
+commit 62ac1bc591ac4797624536a7fd328fe0715711cc
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-18
+
+    添加药房rpc日志
+
+commit 0768ab720f54cfaae6a97f5702fc252ef0b3769e
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-18
+
+    更新
+
+commit 2e6a80d77f14bc8e99313fe64a9554b73734915c
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-17
+
+    执行计划错误仍继续执行
+
+commit 0fcd7b6733ba7a0497f232e5ab28b125d20877b8
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-16
+
+    错误日志中文映射
+
+commit 4763c9fab19638b9448ad32c8afd53ab3dae41f8
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-15
+
+    错误记录
+
+commit 580a5cead5b14f351b76615c86d3e0a913dc9c21
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-15
+
+    错误记录
+
+commit 7383449293af1e9369cb8b75c62f9ff5c38aa3cb
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-11
+
+    update go mod
+
+commit 769d102384a51c77900ef9c1bdff7738d16d944e
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-11
+
+    修复出院召回
+
+commit 320d469b682965fb2e1c587524f75d8a774d17b6
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-10
+
+    用其它方式遍历机构
+
+commit e61d81dfda31768139b23a641ec2b35fd8bd55af
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-09
+
+    更新
+
+commit db615d2927fb9adbe712c72345ca943e64dfde17
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-09
+
+    密码校验盐值
+
+commit 90937d582eb5c12fd995aa1c4edfa499609a8d7c
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    更新
+
+commit 6c99f1958d51e2be8ba8bcdce420a7293a102db5
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    更新
+
+commit 91024f72854ad76ee9b8e4f2dfbebd1f0354c6ad
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-31
+
+    出院召回
+
+commit 67f3fca4164a67ca8cf92b8e5a4d753c137cdc73
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-27
+
+    医嘱列表获取规格
+
+commit 54bb7616a77e5b585c87be9bf39582dc44b0758b
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-14
+
+    修复定时任务数据源空白的问题
+
+commit 9c071f37dedd200db78bca7389f07c8f2fc521a4
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-14
+
+    取消确认再重新确认不会重复生成皮试
+
+commit 9aa0846857aa56dfc83fdc6ddf620b60a2551206
+Author: ludc <ldcc@live.com>
+Date:   2021-05-13
+
+    修复皮试问题
+
+commit fd61aecab0e456692c5d2c58b6c5daa5bc220bad
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-13
+
+    更新确认停嘱 rpc 调用，添加停嘱医生信息
+
+commit 60d3e92821270014997f021cec163f7e5192c4db
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-13
+
+    更新确认停嘱 rpc 调用，添加停嘱医生信息
+
+commit e9c461edc872cb63976c7585371c9c8f1ef43dac
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-12
+
+    已删除医嘱在皮试项目中隐藏
+
+commit 7b961ba8c665f4b3a731231df48fe5d263281f2d
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-12
+
+    已发药医嘱不允许取消确认
+
+commit 3f13736d96a05cacd50f0f64450ff331993a2c0f
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-12
+
+    修复过滤医嘱的问题，过滤失败医嘱后提示错误
+
+commit 80704f394c3caf59210dc5b1438491bb8b956f4c
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-09
+
+    打印执行本添加医嘱明细ID
+
+commit c823ef59642abaff4d6368b045ee0dd56e54c2db
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-07
+
+    床位接口支持返回外检信息
+
+commit f8956e1f28f90dc281450b48544c05e779466543
+Author: ldc <ldcc@live.com>
+Date:   2021-04-28
+
+    执行本打印添加大队名称
+
+commit c1898f46401efbab1b81d3c16ff2626cec2f3ed5
+Author: ldc <ldcc@live.com>
+Date:   2021-04-26
+
+    体征录入添加其它排量
+
+commit 00bf3bb97eccf1f093efd5ac70610d00f6ce883a
+Author: ldc <ldcc@live.com>
+Date:   2021-04-26
+
+    修改皮试结果
+
+commit f9c618ffd203e8523aa132d23e3bc05e995e6dd9
+Author: ldc <ldcc@live.com>
+Date:   2021-04-25
+
+    体征和护理记录支持录入皮试
+
+commit 015f88896a1f3213c621fd117bbb80ff5dd525f6
+Author: ldc <ldcc@live.com>
+Date:   2021-04-25
+
+    修复出院停嘱没有停嘱医生的问题
+
+commit 03f1102f8f64731455eb7c69ce9ce1e33a1bb701
+Author: ldc <ldcc@live.com>
+Date:   2021-04-25
+
+    更改出院时间的设置时机
+
+commit 27471d95dc9e289caaf5244cf84b11e3a0f41f15
+Author: ldc <ldcc@live.com>
+Date:   2021-04-23
+
+    修复注释医嘱生成执行计划失败的问题
+
+commit 01de0393a5ed1767a8f574e605155a35f26df09e
+Author: ldc <ldcc@live.com>
+Date:   2021-04-23
+
+    更新体征血压字段
+
+commit 807fd1188b472551430007dfabaccb3d57621b2f
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-22
+
+    自动同步体征字段
+
+commit 36b8535c5dc81f984e5828e73d6efdccf1f6bdac
+Author: ldc <ldcc@live.com>
+Date:   2021-04-22
+
+    新增体征血压同步接口
+
+commit c10a4db8b8121aa6396b909db007a147a90b05f8
+Author: ldc <ldcc@live.com>
+Date:   2021-04-22
+
+    配置默认护理事务分类
+
+commit 89e09f8c96818671571c740e7b4b03f3cfba2e61
+Author: ldc <ldcc@live.com>
+Date:   2021-04-21
+
+    更新
+
+commit 06c632568fdd5e1b4df9f145987fed2ccf26d1f7
+Author: ldc <ldcc@live.com>
+Date:   2021-04-21
+
+    更新体征字段
+
+commit 296c8bf10a167d7b577930951cbcdf8051e31be2
+Author: ldc <ldcc@live.com>
+Date:   2021-04-20
+
+    drop valided
+
+commit 07f2c7fe25554f843fd2b19025356efc87ea3e14
+Author: ldc <ldcc@live.com>
+Date:   2021-04-16
+
+    修改注释
+
+commit 11eb668d2d6604e8a4b5166ca87986a47eaa7cb0
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-08
+
+    添加测量类医嘱
+
+commit 039e31cf3a01cb0cbe233103bd8b06754a45243f
+Author: ldc <ldcc@live.com>
+Date:   2021-04-08
+
+    生成药品处方外的执行计划
+
+commit 633d5b1bc33146435ff138faa2bbf152582c2ccc
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-07
+
+    更新
+
+commit 2ff860163fb51ad39ebe5ab4c0892be227265395
+Author: ldc <ldcc@live.com>
+Date:   2021-04-07
+
+    添加3X执行本
+
+commit 5b426e6f305b734e91022865b1ae277298548249
+Author: ldc <ldcc@live.com>
+Date:   2021-04-07
+
+    执行本打印添加频率编码
+
+commit 094d2727cc4800e1bad037be322d2d397d2ed42e
+Author: ldc <ldcc@live.com>
+Date:   2021-04-06
+
+    更新模块
+
+commit b222cbe652e3c87e4d14ab5e24bdec0f2e943674
+Author: ldc <ldcc@live.com>
+Date:   2021-04-06
+
+    备份
+commit e6842b4d217db76b2b22f785a2c15a2ed1448ffe
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-24
+
+    更新
+
+commit b001cb1cf8a73e7b13f7eb65e76f16fe9699ebcb
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-24
+
+    更新
+
+commit 870b9aa42e5081299f1ec48e27e3fdc5617eb009
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-24
+
+    更新
+
+commit 554fe321f686686489c29c6f2c53f296953debeb
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-22
+
+    更新
+
+commit 076ebfa1148ae000ec421c84f69ec37b46c7ba3d
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-22
+
+    更新
+
+commit 44ff7e018cef91b844224fd54ea7d704b8006774
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-22
+
+    更新
+
+commit 2bfcf8d8fa1f8d23a153703361c8654ee1a59f46
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-22
+
+    更新
+
+commit 6c6ef2530364c01a9956c6f02a366bec7cd11ab1
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-22
+
+    更新
+
+commit 158e9080765ce6ae1f3b9398b404f2317a68575b
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-22
+
+    更新
+
+commit 4625c6153d1ab5d14c8a168128dbe30812c5f742
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-22
+
+    更新
+
+commit 678a843508ca80d44c727ef38274dcdb5812a4d3
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-22
+
+    更新
+
+commit e936e05a395f22b15d3428cb70b5391cbe96a122
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-22
+
+    更新
+
+commit ca174a5080fd1d87cb66f232e6c6b9261aabc161
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-21
+
+    更新
+
+commit 918778fda75b0960c374f646e4f8f33f856fc677
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-21
+
+    更新
+
+commit 7d6b0818608cd06e03c3a8bb308438e9126f5eb4
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-21
+
+    修复检验检查单诊断字段问题
+
+commit 9574a051821ca0a4fef33bc17f60514db9c1a4d9
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-21
+
+    修复空指针的问题
+
+commit 59d7bcb0e731916bbc11370911ac1c3c79184f98
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-16
+
+    第三方接口`提取病人检查申请信息`: 返回床号和病区
+
+commit 4fa41fb11307d2fe790fb67c7a9a13da7434f9cc
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-07
+
+    更新
+
+commit 9653afec6877b129572bb3ddf57510140d8d8e82
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-07
+
+    更新
+
+commit 35ef360b43c9fdcb01dc649474ad958843ce2410
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-12
+
+    修改新医嘱消息的接收结构体
+commit adff1b5114c0a918954f340af35128890bc130ab
+Author: Ldc <ldcc@live.com>
+Date:   2021-08-03
+
+    修复 strings.Join() 空数组的问题
+
+commit 29b2862581db933ed8895c9fbf6584ae2a9c1ca1
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-16
+
+    修复体检查询 rpc
+
+commit 9fe32e101df1d77dd301b252fdfc5f448891fcfb
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    更新
+
+commit 6fbdab1240c262fa184a2349ba39ac88879f374b
+Author: Ldc <ldcc@live.com>
+Date:   2021-06-07
+
+    fixed flakeid
+
+commit 08d0ef38aed7898b28c55fdc8718461940a8b063
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    更新
+
+commit fab8b457f1de0802c704cf6a99f557be83e04522
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-12
+
+    更新
+
+commit a94d5d8893481cd8299c44633fdd6ba4e4786b90
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-09
+
+    更新
+
+commit 2e7edda48deefbcacccf2b8bd19135b3ccb34415
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-09
+
+    强戒号防止注入
+
+commit 6a6a588a898cd14b2bacf2de2262ab455f1bf1a2
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-09
+
+    自动更新体检表的强戒号与病人id
+
+commit b737a01a2ba08960b84483fb7a633a7b784882d6
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-09
+
+    兼容 patcode 为空
+
+commit 98ab77951d77628f178ff9bdbcc52f72f850329f
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-05-09
+
+    pat id/code compatible
+
+commit d0f6a7e68ee1d1e6476641ed7417c7a6ac79ff7b
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-07
+
+    forcenum: patid -> patcode
+
+commit 9c7e622efd932c57052b4e7ca2f0f2ddc30ea20b
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-06
+
+    成瘾物质和成瘾程度添加默认值
+
+commit 3621e3b8ceee41eb7eb690bfd0a9d86f52439db0
+Author: Ldc <ldcc@live.com>
+Date:   2021-05-06
+
+    不需要做入所体检的限制，即没有入所体检也能做其他体检
+
+commit a4e71b5953a0a6f854c55defa91b3cf939140d98
+Author: ldc <ldcc@live.com>
+Date:   2021-04-29
+
+    体检年龄过滤
+
+commit 96d9acf22f37006a8fb50eddbeb16ff8ff693542
+Author: ldc <ldcc@live.com>
+Date:   2021-04-19
+
+    摇头丸 -> 氯胺酮
+
+commit c8bbbc51bdaffd5436e61891eacad44b5c24e582
+Author: ldc <ldcc@live.com>
+Date:   2021-04-13
+
+    体检成瘾物质忽视对数字的特殊处理
+
+commit 7c0bd5918652a4b174d40fa3b41196d78ec7e9a7
+Author: ldc <ldcc@live.com>
+Date:   2021-04-13
+
+    修复成瘾物质和吸毒方式保存的问题
+
+commit b5dbd21e4d2c95009808b09a40ee6d4280c1f669
+Author: ldc <ldcc@live.com>
+Date:   2021-04-12
+
+    修改成瘾物
+
+commit 393b90a2c2140c196731d8df9ce56ff2a6a543eb
+Author: ldc <ldcc@live.com>
+Date:   2021-04-12
+
+    体检导入配置默认数据
+
+commit 9538b0edf0355865dd56b1beb1f7dfd05d6bb5ad
+Author: ldc <ldcc@live.com>
+Date:   2021-04-09
+
+    修改毒品成瘾物返回格式
+
+commit 2af764c2e2888b7522a18f3d78861e91d367a5e3
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-02
+
+    更新
+
+commit 1dc8086e6faae0fcbe410bc0b553158266d9c3d2
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-02
+
+    体检报告强制更新身高体重字段
+commit 5288ba7b5a84b14bfd16a26b0b8d665043ee797c
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-24
+
+    修复病情告知医生名字问题
+
+commit 974ace06f7c7f29776d1e67905a7bd4f48fdf329
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-16
+
+    更新体检 rpc
+
+commit d34ca179bf31cc68ad18304dc3ea62311ca8c7e9
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    更新
+
+commit 9641d2a266056148c6d8342c3a8d50b1051cff43
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    更新
+
+commit de760fbcfa3032424da493fbf52e02d89443aaa1
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    更新
+
+commit 7782e25937523eea6ac065869cf9a9a11d12898d
+Author: ldc0 <eldhrimnirs@gmail.com>
+Date:   2021-06-07
+
+    update go mod
+
+commit 6e850a8cc1c048d67aec6a13f55a9b785d51d6d0
+Author: Ldc <ldcc@live.com>
+Date:   2021-04-22
+
+    更新初始化配置
+commit efc7a3ab6af9f459ba9bdbafbe8d321e3091e0da
+Author: ldcc <ldcc@live.com>
+Date:   2021-08-19
+
+    update
