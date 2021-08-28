@@ -1,4 +1,3 @@
-pwd = $(PWD)
 after ?= $(shell date +%F --date='-1days')
 before ?= $(shell date +%F --date='+1days')
 proj_dirs = $(dir $(wildcard ../*/))
@@ -26,4 +25,4 @@ comma:=,
 
 update: $(proj_dirs:=.upd)
 %.upd:
-	git --git-dir=$*.git pull
+	cd $* && git pull

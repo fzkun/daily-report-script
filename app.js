@@ -151,6 +151,9 @@ function login(JSESSIONID) {
 }
 
 function submitReport(submitList, pos, JSESSIONID) {
+    if (pos >= submitList.length) {
+        return
+    }
     let commitLog = submitList[pos]
     let reportDate = commitLog.date
     console.log(reportDate + ' -> ', commitLog.content);
@@ -224,9 +227,6 @@ function submitReport(submitList, pos, JSESSIONID) {
             console.log(reportDate + '提交成功');
         }
         pos += 1
-        if (pos >= submitList.length) {
-            return
-        }
         submitReport(submitList, pos, JSESSIONID)
     }
 }
